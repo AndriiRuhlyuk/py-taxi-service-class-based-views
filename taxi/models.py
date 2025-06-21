@@ -31,4 +31,4 @@ class Car(models.Model):
     def __str__(self):
         return (f"{self.model} "
                 f"(manufacturer: {self.manufacturer.name}, "
-                f"format: {self.manufacturer.country})")
+                f"country: {self.manufacturer.country})")
